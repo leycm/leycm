@@ -1,0 +1,6 @@
+﻿1;0;ja,nein;Lebst du ?;1;a==b
+2;1;grün,blau,braun,schwarz;Welche Augenfarbe hast du ?;2;a;a!=b
+3;0;ja,nein;Magst du Tiere ?;3;a==b=!c
+4;1;blau,Katze,Hund,Vogel,Fisch;Welches Tier magst du am meisten ?;2;b;a!=b
+5;1;Sommer,Herbst,Winter,Frühling;Welche Jahreszeit gefällt dir am besten ?;3;a==b=!c
+6;0;ja,nein;Bist du schon einmal geflogen ?;3;a==b=!c
