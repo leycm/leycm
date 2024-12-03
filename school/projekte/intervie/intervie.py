@@ -9,7 +9,7 @@ class QuestionnaireApp:
     def __init__(self, window, background_path, csv_file):
         self.window = window
         self.window.geometry("600x400")
-        #self.window.resizable(False, False)
+        self.window.resizable(False, False)
 
         # Hintergrundbild laden
         self.bg_image = Image.open(background_path)
@@ -131,8 +131,8 @@ class QuestionnaireApp:
         canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
         canvas.configure(yscrollcommand=scrollbar.set)
 
-        canvas.pack(side="left", fill="both", expand=False)
-        scrollbar.pack(side="left", fill="y")
+        canvas.pack(side="left", fill="x", expand=True)
+        scrollbar.pack(side="right",fill="y")
 
         finish_label = tk.Label(scrollable_frame, text="Vielen Dank für Ihre Teilnahme!", font=("Arial", 20, "bold"), fg="#ffffff", bg="#3B3D51")
         finish_label.pack(pady=20)
@@ -152,7 +152,7 @@ class QuestionnaireApp:
 
         # Button zum Beenden
         #exit_button = self.create_button("Beenden", self.window.quit)
-        #exit_button.pack(pady=0)
+        #exit_button.pack(pady=30)
 
         # Speichere die Ergebnisse in einer Excel-Datei
         self.save_to_excel(grouped_answers)
