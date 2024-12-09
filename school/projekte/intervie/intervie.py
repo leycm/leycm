@@ -9,29 +9,23 @@ class QuestionnaireApp:
     def __init__(self, window, background_path, csv_file):
         self.window = window
         self.window.geometry("600x400")
-        self.window.resizable(False, False)
-
-        # Hintergrundbild laden
+        
         self.bg_image = Image.open(background_path)
         self.bg_image = self.bg_image.resize((600, 400), Image.Resampling.LANCZOS)
         self.bg_photo = ImageTk.PhotoImage(self.bg_image)
 
         self.bg_label = tk.Label(window, image=self.bg_photo)
         self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
-
-        # Liste von Antworten
+        
         self.answers = []
 
-        # CSV-Datei laden
         self.questions = self.load_csv(csv_file)
 
-        # Variable zum Speichern der Antwort
         self.user_answer = tk.StringVar()
 
         self.current_question = 0
         self.total_questions = len(self.questions)
 
-        # Start der ersten Frage
         self.show_question()
 
     def load_csv(self, csv_file):
@@ -62,7 +56,7 @@ class QuestionnaireApp:
         question = self.questions[self.current_question]
         self.window.title(f"Frage {self.current_question + 1}/{self.total_questions}")
 
-        # Lösche vorherige Widgets (außer Hintergrund)
+
         for widget in self.window.winfo_children():
             if widget != self.bg_label:
                 widget.destroy()
@@ -71,7 +65,7 @@ class QuestionnaireApp:
         question_label = tk.Label(self.window, text=question['question'], font=("Arial", 16, "bold"), fg="#ffffff", bg="#3B3D51")
         question_label.pack(pady=(100, 10), padx=10)
 
-        # Funktionsaufruf für den Button oder Eingabefeld
+
         if question['type'] == 0:
             self.create_yes_no_buttons()
         elif question['type'] == 1:
@@ -98,7 +92,6 @@ class QuestionnaireApp:
 
     def record_answer(self, answer):
         question = self.questions[self.current_question]
-        # Antwort und zugehörige Daten speichern
         self.answers.append({
             'id': question['id'],
             'answer': answer,
@@ -106,7 +99,6 @@ class QuestionnaireApp:
             'condition': question['condition'],
         })
 
-        # Antwort speichern und nächste Frage aufrufen
         self.current_question += 1
         if self.current_question < self.total_questions:
             self.show_question()
@@ -157,6 +149,7 @@ class QuestionnaireApp:
         # Speichere die Ergebnisse in einer Excel-Datei
         self.save_to_excel(grouped_answers)
 
+
     def save_to_excel(self, grouped_answers):
         wb = openpyxl.Workbook()
         ws = wb.active
@@ -172,37 +165,32 @@ class QuestionnaireApp:
         print(f"Ergebnisse wurden in {file_name} gespeichert.")
 
     def group_answers_by_tag(self):
-        # Gruppiere die Antworten nach "Tag"
         grouped_answers = defaultdict(list)
         for answer in self.answers:
             grouped_answers[answer['tag']].append(answer)
         return grouped_answers
 
     def evaluate_condition(self, condition):
-        # Map placeholders (e.g., 'a', 'b', 'c') to actual answers based on their index
         placeholder_map = {}
-        for idx, answer in enumerate(self.answers):
-            placeholder_map[chr(97 + idx)] = answer['answer']  # 'a', 'b', 'c', ...
-
         try:
-            # Replace placeholders in the condition
+            for idx, answer in enumerate(self.answers):
+                placeholder_map[chr(97 + idx)] = answer['answer']  
+
+            
             for placeholder, value in placeholder_map.items():
                 condition = condition.replace(placeholder, f'"{value}"')
 
-            # Evaluate the condition
             return eval(condition)
         except Exception as e:
-            return f"Fehler ({e})"
+            return f"Fehler in der Bedingung: {e}"
+
 
     def run(self):
         self.window.mainloop()
 
 
 def main():
-    # Erstelle die GUI-Anwendung
     window = tk.Tk()
-
-    # Erstelle die App
     app = QuestionnaireApp(window, background_path="background.png", csv_file="exel/fragen.csv")
     app.run()
 

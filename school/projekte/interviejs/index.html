@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interview Application</h1>
+        <form id="interview-form">
+            <div class="form-group">
+                <label for="question">Question:</label>
+                <input type="text" id="question" name="question" placeholder="Enter a question" required>
+            </div>
+            <div class="form-group">
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer" name="answer" placeholder="Your answer" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="responses">
+            <h2>Responses:</h2>
+            <ul id="response-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
