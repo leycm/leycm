@@ -1,4 +1,4 @@
-# 💫 notTheLey
+---
 I‘m a Java and Python developer <br>My portfolio 
 
 
