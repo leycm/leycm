@@ -1,5 +1,5 @@
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=EF003F&height=180&section=header&text=Hi%20there,%20I'm%20Ley%20Cm!%20👋&fontSize=42&fontAlignY=32&desc=%20Java%20Developer%20|%20Python%20Lover&descSize=24&descAlignY=50&animation=twinkling&fontColor=FFFFFF"
+  src="https://capsule-render.vercel.app/api?type=waving&color=FF003F&height=180&section=header&text=Hi%20there,%20I'm%20Ley%20Cm!%20👋&fontSize=42&fontAlignY=32&desc=%20Java%20Developer%20|%20Python%20Lover&descSize=24&descAlignY=50&animation=twinkling&fontColor=FFFFFF"
   width="100%" />
   
 <div align="center">
@@ -38,7 +38,7 @@ Right now, I'm working on my own Minecraft project, pushing Minecraft to its lim
 
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=EF003F&height=100&section=footer"
+  src="https://capsule-render.vercel.app/api?type=waving&color=FF003F&height=96&section=footer"
   width="100%" />
 
 <!-- https://img.shields.io/badge/notTheLey-Disocord-blue -->
