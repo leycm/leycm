@@ -22,7 +22,7 @@ foreach ($ordner in $quellOrdner) {
             $alleBilder += Get-ChildItem -Path $ordner -Filter $ext -File -ErrorAction SilentlyContinue
         }
     } else {
-        Write-Host "⚠ Ordner nicht gefunden: $ordner"
+        Write-Host "Ordner nicht gefunden: $ordner"
     }
 }
 
