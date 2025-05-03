@@ -15,7 +15,7 @@
 Hi I'm Ley <br>
 I'm Java and Python Dev <br>
 **I create amazing experiences with Java, just like building worlds in Minecraft.** <br>
-Right now, I'm working on my own Minecraft project, pushing Minecraft to its limits! <br>
+Right now, I'm working on SunoMC, pushing Minecraft to its limits! <br>
 
 ---
 
