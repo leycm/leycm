@@ -12,7 +12,6 @@
 
 ---
 
-Hi I'm Ley <br>
 I'm Kotlin and Python Dev <br>
 **I create amazing experiences with Java, just like building worlds in Minecraft.** <br>
 Right now, I'm working on SunoMC, pushing Minecraft to its limits! <br>
