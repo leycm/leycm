@@ -1,5 +1,5 @@
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=FF003F&height=180&section=header&text=Hi%20there,%20I'm%20Ley%20CM!%20👋&fontSize=42&fontAlignY=32&desc=%20Java%20Developer%20|%20Python%20Lover&descSize=24&descAlignY=50&animation=twinkling&fontColor=FFFFFF"
+  src="https://capsule-render.vercel.app/api?type=waving&color=FF003F&height=180&section=header&text=Hi%20there,%20I'm%20Ley%20CM!%20👋&fontSize=42&fontAlignY=32&desc=%20Java%20Developer%20|%20Kotlin%20Hater&descSize=24&descAlignY=50&animation=twinkling&fontColor=FFFFFF"
   width="100%" />
   
 <div align="center">
@@ -13,9 +13,10 @@
 ---
 
 Hi I'm Ley <br>
-I'm Java and Python Dev <br>
+I'm Kotlin and Python Dev <br>
 **I create amazing experiences with Java, just like building worlds in Minecraft.** <br>
 Right now, I'm working on SunoMC, pushing Minecraft to its limits! <br>
+And build a core Java lib called "TheFrame" a utils lover space.
 
 ---
 
