@@ -13,7 +13,7 @@
 ---
 
 I'm Kotlin and Java Dev <br>
-**I create amazing experiences with Java, just like building worlds in Minecraft.** <br>
+**I create amazing experiences with Java, just like building with Blocks.** <br>
 Right now, I'm working on SunoMC, pushing Minecraft to its limits! <br>
 And build a core Java lib called "TheFrame" a utils lover space.
 
