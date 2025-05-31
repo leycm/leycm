@@ -14,8 +14,8 @@
 
 I'm Kotlin and Java Dev <br>
 **I create amazing experiences with Java, just like building with Blocks.** <br>
-Right now, I'm working on SunoMC, pushing Minecraft to its limits! <br>
-And build a core Java lib called "TheFrame" a utils lover space.
+Right now, I'm working on a core Java lib called "TheFrame" a space for utils. <br>
+I'm Learning fabric modding on my new project "GiraffenClient" a utlis mod.
 
 ---
 
