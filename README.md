@@ -12,7 +12,7 @@
 
 ---
 
-I'm Kotlin and Java Dev <br>
+I'm a Kotlin and Java Dev <br>
 **I create amazing experiences with Java, just like building with Blocks.** <br>
 Right now, I'm working on a core Java lib called "TheFrame" a space for utils. <br>
 I'm Learning fabric modding on my new project "GiraffenClient" a utlis mod.
