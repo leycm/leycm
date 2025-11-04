@@ -32,5 +32,5 @@ val ley = Developer(
 <em><b>I love working and connecting with people</b>, so if you want to collaborate, feel free to reach out!</em>
 
 📧 Email: [leymc@proton.me](mailto:leymc@proton.me) <br>
-💬 Discord: `leycm`<br>
-💬 Matrix: `@leycm:envs.net`<br>
+💬 Discord: [leycm](https://discord.com/users/1063519999886622801)<br>
+💬 Matrix: [@leycm:envs.net](https://envs.net)<br>
