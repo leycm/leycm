@@ -21,7 +21,7 @@ paper = { group = "io.papermc.paper", name = "paper-api", version = "1.21.6-R0.1
 spigot = { group = "org.spigotmc", name = "spigot-api", version = "1.21.6-R0.1-SNAPSHOT" }
 velocity = { group = "com.velocitypowered", name = "velocity-api", version = "3.4.0-SNAPSHOT" }
 bungee = { group = "net.md-5", name = "bungeecord-api", version = "1.21-R0.3" }
-velocity = { group = "net.minestom", name = "minestom", version = "2025.09.13-1.21.8" }
+minestom = { group = "net.minestom", name = "minestom", version = "2025.09.13-1.21.8" }
 
 # Packetevents
 packeteventsVelocity = { group = "com.github.retrooper", name = "packetevents-velocity", version = "2.9.5" }
