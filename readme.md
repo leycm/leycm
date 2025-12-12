@@ -34,3 +34,4 @@ val ley = Developer(
 📧 Email: [leymc@proton.me](mailto:leymc@proton.me) <br>
 💬 Discord: [leycm](https://discord.com/users/1063519999886622801)<br>
 💬 Matrix: [@leycm:envs.net](https://envs.net)<br>
+🦋 BlueSky: [@leycm.de](https://bsky.app/profile/leycm.de)<br>
