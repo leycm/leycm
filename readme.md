@@ -8,6 +8,10 @@
   </em>
 </p>
 
+[![leymc@proton.me](https://img.shields.io/badge/leymc%40proton.me-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:leymc@proton.me)
+[![leycm](https://img.shields.io/badge/leycm-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/1063519999886622801)
+[![leycm:envs.net](https://img.shields.io/badge/leycm:envs.net-0DBD8B?style=flat-square&logo=matrix&logoColor=white)](https://envs.net)
+[![@leycm.de](https://img.shields.io/badge/@leycm.de-0285FF?style=flat-square&logo=bluesky&logoColor=white)](https://bsky.app/profile/leycm.de)
 [![LinkedIn: leycm](https://img.shields.io/badge/-leycm-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leycm/)](https://www.linkedin.com/in/leycm/) 
 [![GitHub: leycm](https://img.shields.io/github/followers/leycm?label=follow&style=social)](https://github.com/leycm)
 
