@@ -123,12 +123,12 @@ autoService = { group = "com.google.auto.service", name = "auto-service", versio
 ########################
 #  Ley Project pack
 ########################
-leyneck = {  group = "de.leycm.neck", name = "api", version = "1.1.5"  }
+leyneck = {  group = "de.leycm.neck", name = "api", version = "1.1.6"  }
 leyflux = {  group = "de.leycm.flux", name = "api", version = "1.0.6"  }
 leyvault = {  group = "de.leycm.vault", name = "api", version = "1.0.3"  }
 
-leyfluximpl = {  group = "de.leycm.flux", name = "common", version = "1.0.1"  }
-leyvaultimpl = {  group = "de.leycm.vault", name = "common", version = "1.0.2"  }
+leyfluximpl = {  group = "de.leycm.flux", name = "common", version = "1.0.6"  }
+leyvaultimpl = {  group = "de.leycm.vault", name = "common", version = "1.0.3"  }
 
 
 ########################
