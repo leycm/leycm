@@ -3,7 +3,7 @@
 
 <p>
   <em>
-    Software Engineer at <a href="https://localyhost.de/about/">LocalyHost</a> with a focus on Java and Kotlin<br>
+    Software Engineer at <a href="https://localyhost.de/">LocalyHost</a> with a focus on Java and Kotlin<br>
     Student at <a href="https://www.schulstiftung.info/">Ev. Schulstiftung Württemberg</a> with a passion for Computer Science
   </em>
 </p>
