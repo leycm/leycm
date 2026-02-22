@@ -3,7 +3,7 @@
 
 <p>
   <em>
-    Software Engineer at <a href="https://localyhost.de/">LocalyHost</a> with a focus on Java and Kotlin<br>
+    Contributor at <a href="https://cactusmod.xyz/">CactusMod</a> and Developer at <a href="https://cactusmod.xyz/">CactusNetwork</a><br>
     Student at <a href="https://www.schulstiftung.info/">Ev. Schulstiftung Württemberg</a> with a passion for Computer Science
   </em>
 </p>
