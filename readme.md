@@ -16,7 +16,7 @@
 [![GitHub: leycm](https://img.shields.io/github/followers/leycm?label=follow&style=social)](https://github.com/leycm)
 
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> A little more about me...  
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="20"> A little more about me...  
 
 ```kotlin
 val ley = Developer(
