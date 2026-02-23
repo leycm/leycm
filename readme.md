@@ -1,5 +1,5 @@
 # Hi, I'm Lennard <em>aka leycm</em> <img src="https://media.tenor.com/PLxvoHUadb0AAAAj/bongo-cat-bongo.gif" width="40">
-<img align="right" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="190">
+<img align="right" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="90">
 
 <p>
   <em>
