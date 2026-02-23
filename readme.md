@@ -22,8 +22,8 @@
 val ley = Developer(
     pronouns = "he/him",
     age = 16,
-    code = listOf("Java", "Kotlin", "Go", "CSS"),
-    tools = listOf("JetBrains", "Git", "Gradle", "Maven", "Docker", "JUnit"),
+    techstack = listOf("Java", "Kotlin", "Go", "SQL", "Redis", "Spring"),
+    tools = listOf("JetBrains", "Git", "Gradle", "Docker", "K8s", "JUnit"),
     architecture = listOf("OOP", "Clean Architecture", "MVC", "Event-driven"),
     techCommunities = mapOf(
         "member" to "Java Enthusiasts",
