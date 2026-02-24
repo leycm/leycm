@@ -29,7 +29,7 @@ val ley = Developer(
         "member" to "Java Enthusiasts",
         "maintainer" to "Rubrion MC Community"
     ),
-    currentFocus = "Building Minecraft plugins and learning advanced Java patterns"
+    currentFocus = "Building a Minecraft Server Network and learning C"
 )
 ```
 
