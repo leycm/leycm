@@ -18,8 +18,6 @@
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="20"> A little more about me...  
 
----
-
 ```kotlin
 val ley = Developer(
     pronouns = "he/him",
@@ -36,5 +34,3 @@ val ley = Developer(
 ```
 
 <em><b>I love working and connecting with people</b>, so if you want to collaborate, feel free to reach out!</em>
-
----
