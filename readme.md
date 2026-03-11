@@ -27,7 +27,9 @@ val ley = Developer(
     architecture = listOf("OOP", "Clean Architecture", "MVC", "Event-driven"),
     techCommunities = mapOf(
         "member" to "Java Enthusiasts",
-        "maintainer" to "Rubrion MC Community"
+        "member" to "Java Together",
+        "helper" to "Cactus Community"
+        "maintainer" to "Rubrion Community"
     ),
     currentFocus = "Building a Minecraft Server Network and learning C"
 )
