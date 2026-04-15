@@ -9,7 +9,7 @@
 </p>
 
 [![leymc@proton.me](https://img.shields.io/badge/leycm%40proton.me-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:leycm@proton.me)
-[![leycm](https://img.shields.io/badge/leycm-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/1063519999886622801)
+[![leyycm](https://img.shields.io/badge/leycm-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/1063519999886622801)
 [![leyycm:matrix.org](https://img.shields.io/badge/leycm:matrix.org-0DBD8B?style=flat-square&logo=matrix&logoColor=white)](https://matrix.org)
 [![@leycm.de](https://img.shields.io/badge/@leycm.de-0285FF?style=flat-square&logo=bluesky&logoColor=white)](https://bsky.app/profile/leycm.de)
 [![LinkedIn: leycm](https://img.shields.io/badge/-leycm-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leycm/)](https://www.linkedin.com/in/leycm/) 
